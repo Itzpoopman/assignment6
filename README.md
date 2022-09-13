@@ -1,1 +1,1 @@
-# https://github.com/Itzpoopman/assignment6.git
+# https://github.com/Itzpoopman/assignment6
