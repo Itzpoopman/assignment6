@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans',    sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 40px;
+}
+.logo h1 {
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+    margin-left: 40px;
+    padding-right: 20px;
+}
+.list {
+    color: hsl(219, 9%, 45%);
+    font-size: 16px;
+}
+.list ul {
+    list-style: none;
+    display: flex;
+}
+.list ul li {
+    padding-right: 20px;
+}
+.cart {
+    padding-left: 300px;
+}
+.avatar {
+    margin-right: 180px;
+}
+.product-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    padding-left: 140px;
+    width: 67%;
+}
+.product-main img {
+    border-radius: 10px;
+}
+.product-images {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.product-details {
+    padding-top: 40px;
+    padding-right: 90px;
+    width: 400px;
+    font-size: 16px;
+}
+.product-name h1{
+    font-weight: 700px;
+    padding-top: 10px;
+    color: hsl(220, 13%, 13%);
+    font-size: 32px;
+}
+.product-name h3{
+    color: hsl(26, 100%, 55%);
+}
+p {
+    color: hsl(219, 9%, 45%);
+    font-weight: 400px;
+    padding-top: 25px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.product-details .figures {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.product-details .figures h4 {  
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.original {
+    padding-top: 10px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+}
+.clickables {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clickables .pieces {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: hsl(223, 64%, 98%);
+    height: 35px;
+}
+.clickables .pieces .number {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.clickables .pieces svg {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.clickables .original {
+    padding-top: 20px;
+}
+.buttons button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(26, 100%, 55%);
+    width: 220px;
+    border-width: 350px;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.buttons svg {
+    padding-right: 10px;
+    color: hsl(0, 0%, 100%);
+}
+............................................
+
+@media screen and (max-width: 1300px) {
+    .product-main .product-details {
+        padding-left: 160px;
+        padding-right: 90px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .product-main .product-details
+}
+
+@media screen and (max-width: 915px) {
+
+}
+
+@media screen and (max-width: 840px) {
+
+}
+
+@media screen and (max-width: 790px) {
+
+}
+
+@media screen and (max-width: 500px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
